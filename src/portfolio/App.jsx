@@ -44,11 +44,13 @@ function Experience() {
             <div>
               <h3>{job.role}</h3>
               <p className="job-company">{job.company}</p>
-              <ul className="job-points">
-                {job.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
+              {job.points.length > 0 && (
+                <ul className="job-points">
+                  {job.points.map((point) => (
+                    <li key={point}>{point}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </li>
         ))}
@@ -101,9 +103,15 @@ function Skills() {
       </div>
       <div>
         <h2>Education</h2>
-        <h3>{education.degree}</h3>
-        <p className="job-company">{education.school}</p>
-        <p className="label">{education.dates}</p>
+        <ol className="education">
+          {education.map((item) => (
+            <li key={item.degree}>
+              <h3>{item.degree}</h3>
+              <p className="job-company">{item.school}</p>
+              <p className="label">{item.dates}</p>
+            </li>
+          ))}
+        </ol>
       </div>
     </section>
   )

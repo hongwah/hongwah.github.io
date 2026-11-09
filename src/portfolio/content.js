@@ -45,11 +45,17 @@ export const experience = [
   {
     company: 'Sis Pos Sdn Bhd',
     role: 'Technical Support',
-    dates: 'Mar 2023 – Feb 2024',
+    dates: 'Sep 2023 – Feb 2024',
     points: [
       'Installed and repaired POS hardware at client sites, including desktops, monitors, AIO terminals, cash drawers and thermal receipt printers.',
       'Configured printer IP addresses on desktops and AIO terminals.',
     ],
+  },
+  {
+    company: 'Gross Synergy Sdn Bhd',
+    role: 'System Support',
+    dates: 'Mar 2023 – Aug 2023',
+    points: [],
   },
 ]
 
@@ -71,8 +77,15 @@ export const project = {
 
 export const skills = ['React', 'JavaScript', 'HTML / CSS', 'C#', 'COBOL']
 
-export const education = {
-  degree: 'Bachelor of Information Technology (Honours) in Software Systems Development',
-  school: 'Tunku Abdul Rahman University of Management and Technology',
-  dates: '2018 – 2022',
-}
+export const education = [
+  {
+    degree: 'Bachelor of Information Technology (Honours) in Software Systems Development',
+    school: 'Tunku Abdul Rahman University of Management and Technology',
+    dates: '2021 – 2023',
+  },
+  {
+    degree: 'Diploma in Science (Information Systems Engineering)',
+    school: 'Tunku Abdul Rahman University College',
+    dates: '2018 – 2020',
+  },
+]

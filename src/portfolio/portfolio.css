@@ -327,6 +327,10 @@ h3 {
   margin: 6px 0 4px;
 }
 
+.education li + li {
+  margin-top: 24px;
+}
+
 /* Contact */
 .contact {
   padding: clamp(64px, 8vw, 104px) var(--gutter);

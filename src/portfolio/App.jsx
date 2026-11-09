@@ -115,6 +115,7 @@ function Contact() {
       <h2>Get in touch</h2>
       <a className="contact-email" href={`mailto:${profile.email}`}>{profile.email}</a>
       <ul className="contact-links">
+        <li><a href={profile.linkedin}>LinkedIn</a></li>
         <li><a href={profile.github}>GitHub</a></li>
         <li><a href={profile.resume} download>Resume (PDF)</a></li>
       </ul>

@@ -8,6 +8,7 @@ export const profile = {
   location: 'Kuala Lumpur',
   email: 'hongwah25@gmail.com',
   github: 'https://github.com/hongwah',
+  linkedin: 'https://www.linkedin.com/in/hong-wah-lai-704871238/',
   resume: `${base}Resume-LaiHongWah.pdf`,
   headline: 'I build interfaces with React, and I know how software breaks.',
   summary:
@@ -27,9 +28,9 @@ export const experience = [
     role: 'COBOL Software Developer',
     dates: 'Apr 2025 – Present',
     points: [
-      'Collaborated on software quality assurance and application debugging, writing and executing tests to isolate defects and ensure stable code delivery.',
-      'Improved application reliability by diagnosing software defects, refactoring problematic code and validating fixes before production release.',
-      'Analyzed program logic and UI architecture to ensure robust backend functionality and a seamless user experience.',
+      'Modify COBOL print form and barcode label programs for a Corrugated Packaging System (CPS), handling around 10 print forms and 5 barcode label programs per day.',
+      'Access and edit program source files through PuTTY and AnzioWin, and trace defects with a debugger.',
+      'Refactor problematic code and run tests to validate fixes before production release.',
     ],
   },
   {
@@ -37,9 +38,8 @@ export const experience = [
     role: 'Service Desk Agent',
     dates: 'Apr 2024 – Apr 2025',
     points: [
-      'Delivered first-line support for effective incident resolution.',
-      'Entered service tickets into an incident tracking system to support faster problem identification and resolution.',
-      'Resolved common user concerns using preset issue resolution scripts.',
+      'Provided first-line support, logging and tracking incidents in ServiceNow to speed up problem resolution.',
+      'Resolved common user issues using preset resolution scripts.',
     ],
   },
   {
@@ -47,9 +47,8 @@ export const experience = [
     role: 'Technical Support',
     dates: 'Mar 2023 – Feb 2024',
     points: [
-      'Travelled to onsite locations to install POS hardware, including desktops, monitors, single and dual screen AIO terminals, cash drawers and thermal receipt printers.',
+      'Installed and repaired POS hardware at client sites, including desktops, monitors, AIO terminals, cash drawers and thermal receipt printers.',
       'Configured printer IP addresses on desktops and AIO terminals.',
-      'Repaired desktops, monitors, AIO terminals and thermal receipt printers.',
     ],
   },
 ]
@@ -73,7 +72,7 @@ export const project = {
 export const skills = ['React', 'JavaScript', 'HTML / CSS', 'C#', 'COBOL']
 
 export const education = {
-  degree: 'Bachelor Degree in Software System Development, Information Technology',
+  degree: 'Bachelor of Information Technology (Honours) in Software Systems Development',
   school: 'Tunku Abdul Rahman University of Management and Technology',
   dates: '2018 – 2022',
 }

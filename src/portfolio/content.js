@@ -55,7 +55,7 @@ export const experience = [
     company: 'Gross Synergy Sdn Bhd',
     role: 'System Support',
     dates: 'Mar 2023 – Aug 2023',
-    points: [],
+    points: ['Installed POS systems on self-checkout counters on-site at a Malaysian supermarket chain.'],
   },
 ]
 
